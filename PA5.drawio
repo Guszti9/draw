@@ -1,20 +1,20 @@
-<mxfile host="app.diagrams.net" modified="2022-04-25T14:07:46.217Z" agent="5.0 (X11)" etag="045twzMHWfQNIx4zUQ7Z" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-25T14:15:15.050Z" agent="5.0 (X11)" etag="1bP1mG7ZLJWJr6R0708K" version="17.4.6" type="github">
   <diagram id="VJGHAaBp5tEj5jNFr9uY" name="Page-1">
     <mxGraphModel dx="1350" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="VvutQgffA3wiXfEy-1R5-1" value="Store" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="333" y="40" width="185" height="150" as="geometry" />
+          <mxGeometry x="317" y="40" width="217" height="150" as="geometry" />
         </mxCell>
         <mxCell id="VvutQgffA3wiXfEy-1R5-2" value="- monthlyIncom : BigDecimal&#xa;- product : List&lt;Product&gt;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VvutQgffA3wiXfEy-1R5-1">
-          <mxGeometry y="26" width="185" height="44" as="geometry" />
+          <mxGeometry y="26" width="217" height="44" as="geometry" />
         </mxCell>
         <mxCell id="VvutQgffA3wiXfEy-1R5-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="VvutQgffA3wiXfEy-1R5-1">
-          <mxGeometry y="70" width="185" height="8" as="geometry" />
+          <mxGeometry y="70" width="217" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="VvutQgffA3wiXfEy-1R5-4" value="+ rent(Product, Costumer) : void&#xa;+ sell(Product) : void&#xa;+ reduceRentDaysOfAll() : void&#xa;+ addProduct(Product) : void&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VvutQgffA3wiXfEy-1R5-1">
-          <mxGeometry y="78" width="185" height="72" as="geometry" />
+        <mxCell id="VvutQgffA3wiXfEy-1R5-4" value="+ rent(Product, Costumer, int) : void&#xa;+ sell(Product) : void&#xa;+ reduceRentDaysOfAll() : void&#xa;+ addProduct(Product) : void&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VvutQgffA3wiXfEy-1R5-1">
+          <mxGeometry y="78" width="217" height="72" as="geometry" />
         </mxCell>
         <mxCell id="VvutQgffA3wiXfEy-1R5-17" value="Product" style="swimlane;fontStyle=3;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="328" y="230" width="202" height="220" as="geometry" />
